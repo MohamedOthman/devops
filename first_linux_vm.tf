@@ -124,7 +124,7 @@ resource "azurerm_storage_account" "dev_storage" {
 
 # Create virtual machine
 resource "azurerm_virtual_machine" "myterraformvm" {
-    name                  = "dev_linux_vm"
+    name                  = "DevLinuxVM"
     location              = "eastus"
     resource_group_name   = "${azurerm_resource_group.mygroup.name}"
     network_interface_ids = ["${azurerm_network_interface.nic1.id}"]
