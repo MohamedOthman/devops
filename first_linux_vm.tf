@@ -145,7 +145,7 @@ resource "azurerm_virtual_machine" "myterraformvm" {
     }
 
     os_profile {
-        computer_name  = "dev_linux_vm"
+        computer_name  = "DevLinuxVM"
         admin_username = "azureuser"
     }
 
