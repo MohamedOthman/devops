@@ -11,4 +11,4 @@ third provision the machine from terraform file mentioned in the repository
 fourth install ansible in the machine 
   - apt-get update && apt-get install ansible 
 finally install docker with ansible 
-  - ansible-playbook 
+  - ansible-playbook ansible_install_docker.yml
